@@ -1,5 +1,6 @@
 # Java OOP Interfaces, Abstraction & Class Relationships
 
+![Java Build](https://github.com/TheComputationalCore/java-oop-interfaces-abstraction/actions/workflows/java-build.yml/badge.svg)
 ![Language](https://img.shields.io/badge/Language-Java-orange?style=flat-square)
 ![OOP](https://img.shields.io/badge/Concepts-OOP-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
