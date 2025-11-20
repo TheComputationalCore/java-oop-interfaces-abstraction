@@ -1,65 +1,111 @@
-# Java OOP Task 3
+# Java OOP Interfaces & Abstraction 
 
-This repository contains Java programs demonstrating Object-Oriented Programming (OOP) concepts, including encapsulation, abstraction, interfaces, and class relationships. The project includes two main tasks: a Library Management System and a Taxable interface implementation for calculating taxes on employees and products.
+This repository contains Java programs demonstrating essential Object-Oriented Programming (OOP) concepts such as **encapsulation, abstraction, interfaces, and class relationships**. The project is organized into **two major tasks**:
 
-## Project Structure
+1. **Library Management System**  
+2. **Taxable Interface Implementation**  
 
-- **Book.java**: Defines the `Book` class with attributes `bookID`, `title`, `author`, and `isAvailable` (Task 1).
-- **Library.java**: Implements the `Library` class to manage an array of `Book` objects with methods to add, remove, search, and display books (Task 1).
-- **Taxable.java**: Defines the `Taxable` interface with constants `salesTax` and `incomeTax`, and an abstract method `calcTax()` (Task 2).
-- **Employee.java**: Implements the `Employee` class with the `Taxable` interface to calculate income tax on yearly salary (Task 2).
-- **Product.java**: Implements the `Product` class with the `Taxable` interface to calculate sales tax on unit price (Task 2).
-- **Main.java**: Contains the main method (likely `DriverMain`) to accept user input for employee and product information and display respective taxes (Task 2).
-- **1.a.png, 1.b.png, 1.c.png, 1.d.png, 2.png**: Screenshots of the code implementations for each task.
+---
 
-## Tasks Overview
+## 📁 Project Structure
 
-### Task 1: Library Management System
-This task models a library system using OOP principles:
-- **Book Class**: Represents a book with attributes `bookID`, `title`, `author`, and `isAvailable`.
-- **Library Class**: Manages a collection of books using an array. Provides methods to:
-  - Add a book to the library.
-  - Remove a book from the library.
-  - Search for a book by `bookID`.
-  - Display all books in the library.
-- The system allows user interaction to perform these operations.
+```
+.
+├── Book.java
+├── Library.java
+├── Taxable.java
+├── Employee.java
+├── Product.java
+├── Main.java
+├── 1.a.png
+├── 1.b.png
+├── 1.c.png
+├── 1.d.png
+└── 2.png
+```
 
-### Task 2: Taxable Interface Implementation
-This task demonstrates the use of interfaces and abstraction for tax calculations:
-- **Taxable Interface**: Defines constants `salesTax = 7%` and `incomeTax = 10.5%`, and an abstract method `calcTax()`.
-- **Employee Class**: Implements `Taxable` to calculate income tax on the yearly salary. Attributes include `empId`, `name`, and `salary`.
-- **Product Class**: Implements `Taxable` to calculate sales tax on the unit price of a product. Attributes include `pid`, `price`, and `quantity`.
-- **DriverMain (Main Class)**: Accepts user input for one employee and one product, then calculates and displays the income tax for the employee and sales tax for the product.
+### File Overview
+- **Book.java** – Defines the `Book` class with attributes `bookID`, `title`, `author`, and `isAvailable`.  
+- **Library.java** – Manages an array of `Book` objects; methods to add, remove, search, and display.  
+- **Taxable.java** – Interface defining constants `salesTax`, `incomeTax`, and abstract method `calcTax()`.  
+- **Employee.java** – Implements `Taxable` to compute income tax.  
+- **Product.java** – Implements `Taxable` to compute sales tax.  
+- **Main.java** – Driver for tax calculations.  
 
-## How to Run
+---
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/thesoulseizure/task-3.git
-   ```
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd task-3
-   ```
-3. **Compile the Java Files**:
-   ```bash
-   javac *.java
-   ```
-4. **Run the Program**:
-   - For Task 1 (Library Management System): The interaction logic is likely in `Library.java` or a separate main method within it. Check the code and run:
-     ```bash
-     java Library
-     ```
-   - For Task 2 (Taxable Interface): Run the main class:
-     ```bash
-     java Main
-     ```
+## 📚 Task 1 — Library Management System
+
+### Book Class
+Represents:
+- `bookID`
+- `title`
+- `author`
+- `isAvailable`
+
+### Library Class
+Features:
+✔ Add books  
+✔ Remove books  
+✔ Search by `bookID`  
+✔ Display all books  
+
+### 📸 Screenshots
+![1a](1.a.png)  
+![1b](1.b.png)  
+![1c](1.c.png)  
+![1d](1.d.png)  
+
+---
+
+## 🧮 Task 2 — Taxable Interface Implementation
+
+### Taxable Interface
+Defines:
+- `salesTax = 0.07`
+- `incomeTax = 0.105`
+- `calcTax()` abstract
+
+### Employee Class
+Computes **income tax** on salary.  
+
+### Product Class
+Computes **sales tax** on product price.  
+
+### 📸 Screenshot
+![Task2](2.png)
+
+---
+
+## ▶️ Running the Programs
+
+### Clone
+```bash
+git clone https://github.com/TheComputationalCore/java-oop-interfaces-abstraction.git
+```
+
+### Compile
+```bash
+javac *.java
+```
+
+### Run Task 1
+```bash
+java Library
+```
+
+### Run Task 2
+```bash
+java Main
+```
+
+---
 
 ## Requirements
+- Java JDK 8+
+- Terminal or IDE
 
-- Java Development Kit (JDK) 8 or higher.
-- A terminal or IDE to compile and run Java programs.
+---
 
-## Screenshots
-
-The repository includes screenshots (1.a.png to 1.d.png for Task 1, and 2.png for Task 2) that show the code implementations for each task. Refer to these images to view the solutions visually.
+## 📝 License
+Add a license if needed.
