@@ -108,4 +108,4 @@ java Main
 ---
 
 ## 📝 License
-Add a license if needed.
+This project is licensed under the MIT License.
