@@ -15,19 +15,30 @@ This repository contains Java programs demonstrating essential Object-Oriented P
 ## 📁 Project Structure
 
 ```
-.
-├── Book.java
-├── Library.java
-├── Taxable.java
-├── Employee.java
-├── Product.java
-├── Main.java
+java-oop-interfaces-abstraction/
 │
-├── 1.a.png
-├── 1.b.png
-├── 1.c.png
-├── 1.d.png
-└── 2.png
+├── .github/workflows/
+│   └── java-build.yml
+│
+├── screenshots/
+│   ├── 1.a.png
+│   ├── 1.b.png
+│   ├── 1.c.png
+│   ├── 1.d.png
+│   └── 2.png
+│
+├── src/
+│   ├── Book.java
+│   ├── BookManagementSystem.java
+│   ├── Employee.java
+│   ├── Library.java
+│   ├── Main.java
+│   ├── Product.java
+│   └── Taxable.java
+│
+├── LICENSE
+└── README.md
+
 ```
 
 ### File Overview
