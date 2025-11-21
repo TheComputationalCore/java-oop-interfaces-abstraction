@@ -1,14 +1,17 @@
 # Java OOP Interfaces, Abstraction & Class Relationships
 
+🚀 **Master OOP with Real‑World Java Implementations**
+
 ![Java Build](https://github.com/TheComputationalCore/java-oop-interfaces-abstraction/actions/workflows/java-build.yml/badge.svg)
 ![Language](https://img.shields.io/badge/Language-Java-orange?style=flat-square)
 ![OOP](https://img.shields.io/badge/Concepts-OOP-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-This repository contains Java programs demonstrating essential Object-Oriented Programming (OOP) concepts such as **encapsulation, abstraction, interfaces, and class relationships**. The project is organized into **two major tasks**:
+This repository demonstrates essential **Object‑Oriented Programming (OOP)** concepts including  
+**encapsulation**, **abstraction**, **interfaces**, and **class relationships** through two real-world tasks:
 
-1. **Library Management System**
-2. **Taxable Interface Implementation**
+1. **Library Management System**  
+2. **Taxable Interface: Employee & Product Tax Calculation**
 
 ---
 
@@ -38,91 +41,90 @@ java-oop-interfaces-abstraction/
 │
 ├── LICENSE
 └── README.md
-
 ```
-
-### File Overview
-- **Book.java** – Defines the `Book` class with attributes `bookID`, `title`, `author`, and `isAvailable`.
-- **Library.java** – Manages an array of `Book` objects; methods to add, remove, search, and display books.
-- **Taxable.java** – Interface defining constants `salesTax`, `incomeTax`, and abstract method `calcTax()`.
-- **Employee.java** – Implements `Taxable` to compute income tax.
-- **Product.java** – Implements `Taxable` to compute sales tax.
-- **Main.java** – Driver for tax calculations.
 
 ---
 
 # 📘 Task 1 — Library Management System
 
-### Book Class
+### **Book Class**
 Represents:
 - `bookID`
 - `title`
 - `author`
 - `isAvailable`
 
-### Library Class
-Supports:
-✔ Add books  
-✔ Remove books  
-✔ Search by ID  
-✔ Display all books
+### **Library Class**
+Provides:
+- ➕ Add books  
+- ➖ Remove books  
+- 🔍 Search by ID  
+- 📋 Display all books  
 
-### 📸 Screenshots
-![screenshots](1.a.png)  
-![screenshots](1.b.png)  
-![screenshots](1.c.png)  
-![screenshots](1.d.png)
+### 📸 Screenshots (Task 1)
+| 1.a | 1.b |
+|-----|-----|
+| ![](screenshots/1.a.png) | ![](screenshots/1.b.png) |
+
+| 1.c | 1.d |
+|-----|-----|
+| ![](screenshots/1.c.png) | ![](screenshots/1.d.png) |
 
 ---
 
 # 🧮 Task 2 — Taxable Interface Implementation
 
-### Taxable Interface
+### **Taxable Interface**
 Defines:
 - `salesTax = 0.07`
 - `incomeTax = 0.105`
-- Abstract method `calcTax()`
+- Method: `calcTax()`
 
-### Employee Class
-Computes **income tax** based on salary.
+### **Employee Class**
+✔ Calculates **income tax** from salary.
 
-### Product Class
-Computes **sales tax** based on price.
+### **Product Class**
+✔ Calculates **sales tax** from price.
 
-### 📸 Screenshot
-![screenshots](2.png)
+### 📸 Screenshot (Task 2)
+![](screenshots/2.png)
 
 ---
 
-# ▶️ Running the Programs
+# ▶️ How to Run
 
-### Clone
+### **Clone Repository**
 ```bash
 git clone https://github.com/TheComputationalCore/java-oop-interfaces-abstraction.git
 ```
 
-### Compile
+### **Navigate**
+```bash
+cd java-oop-interfaces-abstraction/src
+```
+
+### **Compile**
 ```bash
 javac *.java
 ```
 
-### Run Task 1
+### **Run Task 1**
 ```bash
 java Library
 ```
 
-### Run Task 2
+### **Run Task 2**
 ```bash
 java Main
 ```
 
 ---
 
-# Requirements
-- Java JDK 8+
-- Terminal or IDE
+# 🛠 Requirements
+- Java **JDK 8+**
+- Terminal / Command Prompt / IDE (IntelliJ, VS Code, Eclipse)
 
 ---
 
 # 📝 License
-This project is licensed under the **MIT License**.
+Licensed under the **MIT License**.
