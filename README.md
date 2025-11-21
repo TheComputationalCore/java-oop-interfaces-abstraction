@@ -68,10 +68,10 @@ Supports:
 ✔ Display all books
 
 ### 📸 Screenshots
-![1a](1.a.png)  
-![1b](1.b.png)  
-![1c](1.c.png)  
-![1d](1.d.png)
+![screenshots](1.a.png)  
+![screenshots](1.b.png)  
+![screenshots](1.c.png)  
+![screenshots](1.d.png)
 
 ---
 
@@ -90,7 +90,7 @@ Computes **income tax** based on salary.
 Computes **sales tax** based on price.
 
 ### 📸 Screenshot
-![Task2](2.png)
+![screenshots](2.png)
 
 ---
 
